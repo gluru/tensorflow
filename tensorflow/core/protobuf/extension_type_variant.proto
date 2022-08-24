@@ -2,7 +2,10 @@ syntax = "proto3";
 
 package tensorflow;
 
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/protobuf/extension_type_variant_go_proto";
+
 import "tensorflow/core/protobuf/struct.proto";
+
 
 // Metadata for ExtensionTypeVariant, used when serializing as Variant.
 //
