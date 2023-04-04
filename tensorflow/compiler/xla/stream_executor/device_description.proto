@@ -19,6 +19,8 @@ package stream_executor;
 
 import "tensorflow/compiler/xla/autotune_results.proto";
 
+option go_package = "github.com/google/tsl/tsl/go/protobuf/for_core_protos_go_proto";
+
 message CudaComputeCapabilityProto {
   int32 major = 1;
   int32 minor = 2;

@@ -5,6 +5,8 @@ package tensorflow;
 import "tensorflow/core/framework/graph.proto";
 import "tensorflow/core/framework/types.proto";
 
+option go_package = "github.com/tensorflow/tensorflow/tensorflow/go/core/framework/optimized_function_graph_go_proto";
+
 // Optimized function graph after instantiation-related graph optimization
 // passes (up till before graph partitioning). The first half of the proto is
 // representing a GraphDef and the rest of the fields are extra information from

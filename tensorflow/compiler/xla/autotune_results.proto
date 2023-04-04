@@ -19,6 +19,8 @@ package xla;
 
 import "tensorflow/tsl/protobuf/autotuning.proto";
 
+option go_package = "github.com/google/tsl/tsl/go/protobuf/for_core_protos_go_proto";
+
 // A collection of algorithms for particular dot/convs.  Usually this is "the
 // best" algorithm for the particular dot/conv, although that's not strictly
 // required.
